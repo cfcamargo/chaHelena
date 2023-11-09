@@ -8,11 +8,13 @@ export const useConfirmedStore = defineStore('confirmed', {
         giftList: [] as gift[],
 
         guestSelected : {} as guest,
+        giftSelected : {} as gift,
     }),
     getters: {
         getGuestList: (state) => state.guestList,
         getGiftList: (state) => state.giftList,
         getGuestSelected: (state) => state.guestSelected,
+        getGiftSelected: (state) => state.giftSelected,
     },
     actions: {
         setGuestList(list : guest[]) {
@@ -23,6 +25,9 @@ export const useConfirmedStore = defineStore('confirmed', {
         },
         setGuestSelected(guest : guest) {
             this.guestSelected = guest
+        },
+        setGiftSelected(gift : gift) {
+            this.giftSelected = gift
         },
     },
   })

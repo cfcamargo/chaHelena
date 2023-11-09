@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   components: [{ path: '~/components', pathPrefix: false }],
-  modules: ['@nuxtjs/google-fonts','@pinia/nuxt'],
+  modules: ['@nuxtjs/google-fonts','@pinia/nuxt', '@nuxtjs/supabase'],
   postcss: {
     plugins: {
       tailwindcss: {},
