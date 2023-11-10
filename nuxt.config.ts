@@ -33,7 +33,7 @@ export default defineNuxtConfig({
         { name : 'title', content: 'Chá de Bebe da Helena' },
         { property: 'og:description', content: 'App Para confirma presença no chá de bebe da Helena' },
         { property: 'og:image', content: '/cover.jpg' },
-        { property: 'og:url', content: 'https://chadebebedahelena.vercel.app/' },
+        { property: 'og:url', content: 'https://cha-helena.vercel.app/' },
         { property: 'og:type', content: 'website' },
       ],
       link : [
