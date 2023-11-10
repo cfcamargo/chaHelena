@@ -20,7 +20,7 @@
 
                 <button class="px-6 py-2 bg-pink hover:bg-pink-dark text-white rounded" @click="confirmPresence">
                     <span v-if="confirm_loading" class="w-full flex justify-center items-center">
-                        <Loader2 :size="20" color="white" class="animate-spin"/>
+                        <Loader2 :size="24" color="white" class="animate-spin"/>
                     </span>
                     <span v-else>
                         CONFIRMAR PRESENÇA

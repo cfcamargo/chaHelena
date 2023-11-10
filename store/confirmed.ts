@@ -1,7 +1,5 @@
 import type gift from "~/models/gift"
 import type guest from "~/models/guest"
-
-
 export const useConfirmedStore = defineStore('confirmed', {
     state: () => ({
         guestList: [] as guest[],

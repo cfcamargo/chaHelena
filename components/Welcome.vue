@@ -11,6 +11,11 @@
             <button class="px-6 py-2 bg-pink hover:bg-pink-dark text-white rounded" @click="$emit('next')">
                 PRÓXIMO
             </button>
+
+
+            <NuxtLink to="/auth" class="mt-8 text-pink-dark underline">
+                Acessar área administrativa
+            </NuxtLink>
         </div>
     </Container>
 </template>

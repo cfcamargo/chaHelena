@@ -1,6 +1,34 @@
-# Nuxt 3 Minimal Starter
+# Chá de Bebe da Helena APP
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Aplicação Criada Para meu amigo Vinícius. A aplicação vai ser para os convidados do chá de Bebe da Helena, filha dele, poderem marcar presença na festa, e tambem poderem escolher algum presente da lista, para presentar a Helena. Com a confirmação os Papais da Helena, podem ver quem vai a festa, qual presente vai levar, evitando repetição de presentes, e tendo controle sobre a quantidade de convidados.
+
+## Tecnologias
+- Nuxt JS
+- Tailwind CSS
+- Pinia
+- Typescript
+- Supabase
+- Animate CSS
+- Google Fonts
+
+
+## Funcionalidades
+- Marcar presença no chá da Helena
+- Listagem de Usuários com base em uma tabela Guests no Supabase
+- Listagem de Presentes com base na tabela Gifts no supabase
+- Área Administrativa, usando autenticação do supabase, para papai e mamãe cadastrar presentes ou convidados, alem de deletar.
+
+
+## Capturas de Tela
+![welcome](screenshots/welcome.png)
+![Guest Select](screenshots/guestselect.png)
+![Gift Select](screenshots/giftselect.png)
+![Auth Admin Area](screenshots/auth.png)
+![Admin Confirmed](screenshots/confirmed.png)
+![Admin Guests](screenshots/guests.png)
+![Admin Gifts](screenshots/gifts.png)
+
+
 
 ## Setup
 
