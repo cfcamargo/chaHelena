@@ -1,7 +1,7 @@
 <template>
     <div class="w-full max-w-[800px] mx-auto h-screen xs:px-2 md:px-20 xs:pt-12 md:pt-6 flex flex-col">
         <div class="w-full flex items-center justify-between p-2">
-            <h2 class="text-2xl text-pink-dark xs:text-start md:text-center">Lista de Convidados Confirmados</h2>
+            <h2 class="text-2xl text-pink-dark xs:text-start md:text-center">Lista de Presentes</h2>
             <button class="py-2 px-6 rounded bg-pink hover:bg-pink-dark text-white" @click="show = true">Novo</button>
         </div>
 
