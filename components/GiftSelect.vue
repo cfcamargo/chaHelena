@@ -8,7 +8,7 @@
           </div>
 
           <ul class="flex-1 max-h-[300px] overflow-y-scroll flex flex-col gap-4 w-full scroll-element px-2" v-if="giftNotSelected.length > 0">
-              <li class="cursor-pointer text-white p-2 rounded" :class="giftSelected !== null && giftSelected.description === gift.description ? 'bg-blue-dark' : 'bg-pink-dark'" v-for="gift in giftNotSelected" :key="gift.id" @click="selectedGuest(gift)">
+              <li class="cursor-pointer text-white p-2 rounded" :class="giftSelected !== null && giftSelected.id === gift.id ? 'bg-blue-dark' : 'bg-pink-dark'" v-for="gift in giftNotSelected" :key="gift.id" @click="selectedGuest(gift)">
                   {{  gift.description }}
               </li>
           </ul>

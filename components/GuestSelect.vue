@@ -13,7 +13,7 @@
             </div>
 
             <ul class="flex-1 max-h-[300px] overflow-y-scroll flex flex-col gap-4 w-full scroll-element" v-if="guestNotConfirmed.length > 0">
-                <li class="cursor-pointer" :class="guestSelected !== null && guestSelected.name === guest.name ? 'text-blue-dark' : 'text-pink-dark'" v-for="guest in guestNotConfirmed" :key="guest.id" @click="selectedGuest(guest)">
+                <li class="cursor-pointer" :class="guestSelected !== null && guestSelected.id === guest.id ? 'text-blue-dark' : 'text-pink-dark'" v-for="guest in guestNotConfirmed" :key="guest.id" @click="selectedGuest(guest)">
                     {{  guest.name }}
                 </li>
             </ul>
