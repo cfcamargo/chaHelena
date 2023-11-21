@@ -140,8 +140,6 @@ const form_status = ref<{
 })
 
 function toogleMenu(){
-    console.log('toogle')
-
     hamburguer_show.value = !hamburguer_show.value
 
 }

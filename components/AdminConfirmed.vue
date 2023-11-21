@@ -13,7 +13,7 @@
             <li class="w-full flex items-center p-4 rounded bg-pink" v-for="guest in confirmedGuests" :key="guest.id">
                 <div class="flex flex-col gap-1 flex-1 text-white">
                     <span>Convidado: {{ guest.name }}</span>
-                    <span>Presente: {{  getGiftById(guest.id) }}</span>
+                    <span v-if="guest.giftId">Presente: {{  getGiftById(guest.giftId) }}</span>
                 </div>
                 <div>
                     <button class="flex items-center justify-center gap-2 border border-white rounded p-2" @click="handleDeleteConfirmedGuest(guest)">
@@ -42,7 +42,8 @@ const confirmedGuests = computed(() => {
 })
 
 function getGiftById(id: number){
-    return props.giftList.find(gift => gift.id === id)?.description
+    let gift = props.giftList.find(gift => gift.id === id)?.description
+    return gift
 }
 
 function handleDeleteConfirmedGuest(guest: guest){
