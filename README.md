@@ -1,6 +1,6 @@
 # Chá de Bebe da Helena APP
 
-Aplicação Criada Para meu amigo Vinícius. A aplicação vai ser para os convidados do chá de Bebe da Helena, filha dele, poderem marcar presença na festa, e tambem poderem escolher algum presente da lista, para presentar a Helena. Com a confirmação os Papais da Helena, podem ver quem vai a festa, qual presente vai levar, evitando repetição de presentes, e tendo controle sobre a quantidade de convidados.
+Aplicação Criada Para meu amigo [Vinícius Almeida](https://www.instagram.com/v.galmeida/). A aplicação vai ser para os convidados do chá de Bebe da Helena, filha dele, poderem marcar presença na festa, e tambem poderem escolher algum presente da lista, para presentar a Helena. Com a confirmação os Papais da Helena, podem ver quem vai a festa, qual presente vai levar, evitando repetição de presentes, e tendo controle sobre a quantidade de convidados.
 
 ## Tecnologias
 - Nuxt JS
